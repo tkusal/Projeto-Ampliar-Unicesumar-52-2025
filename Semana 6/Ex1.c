@@ -69,7 +69,7 @@ int main()
                 printf("Informe o código do produto que deseja buscar: ");
                 scanf("%d", &codBusca);
 
-                for (int i = 0; i <= contProdutos, i++) {
+                for (int i = 0; i <= contProdutos; i++) {
                     if (codBusca == produtos[i].codigo) {
                         printf("Código: %d \n", produtos[i].codigo);
                         printf("Descrição: %s \n", produtos[i].descricao);
@@ -81,7 +81,7 @@ int main()
                 if ( encontrou == 0) {
                     printf("O código informado não foi localizado.\n");
                 }
-                
+
                 break;
             case 3:
                 printf("Encerrando...");
